@@ -1,0 +1,22 @@
+.spotify_container {
+    max-width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 85vh 15vh;
+}
+
+.spotify_body {
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(transparent, rgb(102, 51, 153, .9));
+    background-color: rgb(32, 178, 170, .8);
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}

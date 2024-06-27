@@ -1,0 +1,11 @@
+.footer_container{
+    background: linear-gradient(transparent, rgba(32, 178, 170) );
+    background-color: rgba(102, 51, 153, .95);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
